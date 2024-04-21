@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Navbar = () => {
+export default function Navbar() {
   return (
     <>
-          <div className="container mx-auto max-w-7xl">
+      <div className="container mx-auto max-w-7xl">
         <div className="flex flex-row items-end justify-between p-10">
           <div className="font-bold text-amber-400">
             <a href="#home"> HusseinMbarak </a>
@@ -22,7 +20,5 @@ const Navbar = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
-
-export default Navbar
